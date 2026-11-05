@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c3974508-8fca-49bd-9b5c-2703bb90192a}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{33ea59c9-76b4-49cc-b909-6d015b7a85d3}" IsUserDefined="1">
+          <labels>
+            <label description="Generale" languagecode="1040" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{eb5720b5-6596-460d-9bb2-bae5fb0e13f2}">
+                  <labels>
+                    <label description="Generale" languagecode="1040" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e27ef2a2-941c-46d0-b538-8cabfb353278}">
+                        <labels>
+                          <label description="c_cognome" languagecode="1040" />
+                        </labels>
+                        <control id="crba6_c_cognome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crba6_c_cognome" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76fa5aba-774b-43fa-9390-cbe55e03cef2}">
+                        <labels>
+                          <label description="Proprietario" languagecode="1040" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ddf7e373-c22a-4b9b-9d4b-c7d26b05f275}">
+                        <labels>
+                          <label description="c_nome" languagecode="1040" />
+                        </labels>
+                        <control id="crba6_c_nome" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crba6_c_nome" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dfc9b162-0d3c-4237-95f4-e09848bf8f5b}">
+                        <labels>
+                          <label description="c_data_nascita" languagecode="1040" />
+                        </labels>
+                        <control id="crba6_c_data_nascita" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="crba6_c_data_nascita" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{326ae945-3495-4f75-be9d-9e58cea588f5}">
+                        <labels>
+                          <label description="c_mobile_number" languagecode="1040" />
+                        </labels>
+                        <control id="crba6_c_mobile_number" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crba6_c_mobile_number" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c224cf0d-4407-4ef4-bbb4-d1e5ba3a958b}">
+                        <labels>
+                          <label description="c_email" languagecode="1040" />
+                        </labels>
+                        <control id="crba6_c_email" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crba6_c_email" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{02503333-c683-4dc1-a2d2-3cfbc32b23f1}">
+                        <labels>
+                          <label description="c_note" languagecode="1040" />
+                        </labels>
+                        <control id="crba6_c_note" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="crba6_c_note" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informazioni" languagecode="1040" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Modulo per questa entità." languagecode="1040" />
+    </Descriptions>
+  </systemform>
+</forms>

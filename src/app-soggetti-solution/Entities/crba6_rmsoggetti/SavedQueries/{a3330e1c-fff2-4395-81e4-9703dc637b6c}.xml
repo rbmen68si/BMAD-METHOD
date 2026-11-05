@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a3330e1c-fff2-4395-81e4-9703dc637b6c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="crba6_c_cognome" select="1" icon="1" preview="1">
+        <row name="result" id="crba6_rmsoggettiid">
+          <cell name="crba6_c_cognome" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="crba6_rmsoggetti">
+          <attribute name="crba6_rmsoggettiid" />
+          <attribute name="crba6_c_cognome" />
+          <attribute name="createdon" />
+          <order attribute="crba6_c_cognome" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Visualizzazione ricerca avanzata rm-soggetti" languagecode="1040" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
